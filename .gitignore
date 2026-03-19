@@ -1,0 +1,10 @@
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.env
+.venv
+venv/
+gpu_db.sqlite
+*.db
+.DS_Store
