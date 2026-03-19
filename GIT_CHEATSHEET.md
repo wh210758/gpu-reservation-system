@@ -104,6 +104,7 @@
    git pull origin dev
    git checkout -b feat/我的新功能   # 永远基于最新的 dev 建分支
    ```
+
 2. 写代码，测试跑通后：
    
    ```bash
@@ -111,6 +112,7 @@
    git commit -m "feat(模块名): 我干了啥"  # 提交信息参考下方的规范
    git push origin feat/我的新功能
    ```
+
 3. 下班/交接：在 GitHub / GitLab / Gitee 网页端，向 `dev` 分支发起 Pull Request (PR)。严禁自己强行 merge！让项目负责人检查后再点合并按钮。
 
 ### 附录：Commit Message 规范前缀
