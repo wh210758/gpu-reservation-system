@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 调整 ECharts 的父级高度适配 flex */
+html, body, #app {
+  height: 100%;
+}
